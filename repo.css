@@ -1,0 +1,121 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.git-container {
+    width: 300px;
+    margin: 20px auto;
+    padding: 8px;
+    background-color: #87cefa;
+    border: 2px solid #4682b4;
+    position: relative;
+}
+
+.section {
+    border: 2px dashed #4682b4;
+    background-color: #e8e8e8;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.untracked {
+    height: 80px;
+}
+
+.modified {
+    width: 135px;
+    height: 70px;
+    background-color: #f7caca;
+    border-color: #ff6666;
+}
+
+.staging {
+    width: 105px;
+    height: 70px;
+    background-color: #d8ead2;
+    border-color: #66aa66;
+}
+
+.commit {
+    height: 120px;
+}
+
+.middle-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    color: white;
+    font-size: 11px;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.green {
+    background-color: #3c9d40;
+}
+
+.blue {
+    background-color: #1f78b4;
+}
+
+.dark-blue {
+    background-color: #0d4f8b;
+}
+
+.file-boxes {
+    display: flex;
+    gap: 20px;
+    padding: 25px 15px;
+}
+
+.file {
+    width: 55px;
+    height: 40px;
+    background-color: #dfe6ff;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    font-size: 22px;
+}
+
+.file span {
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 2px 5px;
+}
+
+.database {
+    position: absolute;
+    right: -5px;
+    bottom: -10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.database span {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    font-size: 11px;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+}
